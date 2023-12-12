@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+	<title>漫画博客</title>
+	<meta charset="UTF-8">
+	<!-- 链接外部css文件  -->
+	<link rel="stylesheet" href="main.css">
+	<style type="text/css">
+		/*  设置背景  */
+		body {
+			background-image: url(背景.png); /*添加背景图片*/
+			background-size: 110%; /*设置背景图片尺寸*/
+			background-attachment: fixed; /*固定背景位置*/
+		}
+
+		/*顶部图片尺寸*/
+		#top {
+			width: 100%;
+			/*设置顶部图片宽度等于浏览器宽度*/
+			height: 10%;
+		}
+
+		/* 设置八个漫画区域 */
+		div {
+			width: 60%;
+			height: 1200px;
+			background-color: rgba(255, 255, 255, 0.5); /*设置背景颜色*/
+			font-weight: bold; /*设置字体粗细*/
+			position: relative; /*设置定位模式*/
+			text-align: center;
+			
+			border-radius: 15px; /*设置圆角边框*/
+		}
+
+
+		/* 漫画章节标题 */
+		h2 {
+            width: 100%;
+            height: 5%;
+            text-align: center;
+            font-size: 60px;
+            font-family: "Ma Shan Zheng";
+            color: rgba(26, 25, 24, 0.7); /*设置字体颜色*/
+            border-color: rgba(0, 0, 0, 0.3);
+            border-width: 5%;
+            border-style: solid;
+            border-radius: 15px; /*设置圆角边框*/
+            background-color: rgba(255, 255, 255, 0.7); /*设置背景颜色*/
+
+		}
+
+
+		/* 导航栏区域样式 */
+		#guide {
+			width: 100%;
+			height: 10%;
+			position: fixed;
+			margin-left: 0;
+
+		}
+
+		/* 目录样式 */
+		a {
+			text-decoration: none;
+			color: rgb(0,0,0);
+		}
+		/*———————————————————————————————————————————*/
+		/*你需要在这里编写代码，设置 a 标签的 hover 样式*/
+		a:hover{
+			color: rgb(244, 167,21);
+		}
+
+
+
+		/*-----------------------------------------*/
+		</style>
+
+</head>
+
+<body>
+	<!-- 导航栏 -->
+	<div id="guide">
+		<li class="event_target data_report c-navigator--item c-navigator--selected" data-watch_event="首页-入口tab" data-extra_word_one="点击" data-data_report_btn_name="首页-入口tab"><a href="file:///C:/Users/Administrator/Desktop/%E5%85%AC%E5%8F%B8%E7%BD%91%E7%AB%99/index.html">首页</a></li>
+	</div>
+
+</body>
+
+</html>
